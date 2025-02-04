@@ -1,18 +1,46 @@
-**Chess Game with Multiplayer Functionality**
-Welcome to the Chess Game project! This is a multiplayer chess game built using Socket.io for real-time communication. It allows players to compete against each other in a classic chess game environment.
+# ♟️ Chess Web Application
 
-**Features**
+This **Chess Web Application** is an interactive and engaging platform where users can play chess directly in their browser. Built using **Node.js**, **Express.js**, and **EJS**, the application offers a clean and responsive user interface for chess enthusiasts. The game logic is implemented in JavaScript, ensuring smooth gameplay and dynamic updates.
 
-**Real-Time Multiplayer**: Play chess against other players in real-time.
-**Game State Synchronization**: Synchronize game state between players seamlessly.
-**Player Roles**: Distinguish between different player roles (e.g., white and black).
-**Move Validation**: Validate chess moves according to standard chess rules.
+---
 
-**Technologies Used**
+## 🚀 Features
 
-**Node.js**: Server-side runtime environment.
-**Express.js**: Web framework for building the server.
-**Socket.io**: Real-time communication library for multiplayer functionality.
-**HTML/CSS**: Frontend technologies for the user interface.
-**Frameworks used**
-Tailwind CSS
+### Core Features:
+- **Interactive Chessboard**: Fully functional chessboard with drag-and-drop functionality for moving pieces.
+- **Real-Time Validation**: Ensures legal moves based on chess rules.
+- **Game Logic**: Implements core chess rules, including check, checkmate, and stalemate.
+- **Dynamic Updates**: The board updates dynamically after every move.
+
+### User Interface:
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Clean UI**: Styled with CSS for a visually appealing experience.
+
+### Additional Features:
+- **Player vs. Player Mode**: Two players can play on the same device.
+- **Restart Option**: Allows players to restart the game anytime.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Backend**: Node.js, Express.js
+- **Frontend**: EJS (Embedded JavaScript), CSS
+- **Game Logic**: JavaScript
+
+---
+
+## 📂 Directory Structure
+
+revanthsahu05-chess/
+├── README.md # Project documentation
+
+├── app.js # Main server file
+
+├── chessgame.js # Game logic implementation
+
+├── index.ejs # Main HTML template for the game
+
+├── package.json # Project dependencies and metadata
+
+└── style.css # Stylesheet for the application

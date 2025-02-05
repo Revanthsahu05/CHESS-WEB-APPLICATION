@@ -1,6 +1,6 @@
 # ♟️ Chess Web Application
 
-This **Chess Web Application** is an interactive and engaging platform where users can play chess directly in their browser. Built using **Node.js**, **Express.js**, and **JavaScript**, the application offers a clean and responsive user interface for chess enthusiasts. The game logic is implemented in JavaScript, ensuring smooth gameplay and dynamic updates.
+This **Chess Web Application** is an interactive and engaging platform where users can play chess directly in their browser. Built using **Node.js**, **Express.js**, and **EJS**, the application offers a clean and responsive user interface for chess enthusiasts. The game logic is implemented in JavaScript, ensuring smooth gameplay and dynamic updates.
 
 ---
 
